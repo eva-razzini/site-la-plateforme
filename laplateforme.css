@@ -1,0 +1,33 @@
+nav {
+    border-radius: 14px;
+    background: #1e81b3;
+    box-shadow:  5px 5px 6px #10435d,
+                 -5px -5px 6px #2cbfff;
+  }
+  
+  a {
+    flex: 1;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .et_header_style_left .logo_container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+.et_non_fixed_nav.et_fullwidth_nav.et_header_style_left .logo_container {
+  padding-left: 30px;
+}
