@@ -199,12 +199,120 @@ a.et_pb_button_00 {
 }
 
 /* Qui Sommes Nous */
+.qui {
+    position: relative;
+    background-color: black;
+}
 .titrequi {
-    padding: 2% 0;
+    padding: 1% 0;
     color: #336699;
     text-align: center;
     font-size: 220%;
 }
 #imgqui {
-    width: 100%;
+    width: 50%;
+}
+.bodyqui {
+    font-family: 'Roboto Regular',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 14px;
+    color: #336699;
+    background-color: #fff;
+    line-height: 1.7em;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+}
+.somqui {
+    background-color: #20b1ff21;
+    padding: 2%;
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    right: 0%;
+    width: 1000px;
+    transform: translate(-50%, -50%)
+}
+.gmail_default {
+    padding: 2%;
+}
+.icone {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+}
+.icon {
+    max-width: 200px;
+    height: auto;
+    padding: 10px;
+    margin: 15px;    
+}
+.textequi {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 3%;
+    text-decoration: none;
+}
+.align {
+    display: flex;
+    flex-direction: row;
+}
+.quila {
+    background-color: #f6f6f6;
+}
+.certif {
+    padding: 5px;
+}
+.pers {
+    margin-bottom: 1px;
+    margin-top: 30px;
+    font-size: 1.6em;
+}
+.colo {
+    color: #ff2063;
+}
+
+/* Contact */
+
+.bodycon {
+    color: #336699;
+}
+#imgcon {
+    width: 60%;
+}
+.con1 {
+    background-color: black;
+}
+.centered1 {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    right: 0%;
+    width: 1000px;
+    transform: translate(-50%, -50%);
+}
+.sepacon {
+    margin-bottom: 50px;
+}
+input#input_11_1_6 , input#input_11_1_3 , select#input_11_1_2 , input#input_11_4, input#input_11_3, select#input_11_11, textarea#input_11_8, input#input_11_6_1 ,input#gform_submit-button_11 {
+    background-color: #937e8445;
+    border-color: #ff2063;
+    color: #757575;
+}
+#field_11_1, #field_11_6 {
+    border-color: #ff2063;
+}
+.titrecon {
+    padding: 1% 0;
+    color: #336699;
+    font-size: 220%;
 }
