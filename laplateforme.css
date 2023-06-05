@@ -42,7 +42,6 @@ body {margin:0;
     /* page d'aceuil */
 .wp-image-53635 {
     position: relative;
-    /* padding-left: 10%; */
     max-width: 100%;
 }
 .et_pb_column_0 {
@@ -222,14 +221,13 @@ a.et_pb_button_00 {
     -webkit-font-smoothing: antialiased;
 }
 .somqui {
-    background-color: #20b1ff21;
+    background-color: #20b1ff00;
     padding: 2%;
     display: flex;
     font-size: 20px;
     flex-direction: row;
     align-items: center;
 }
-
 .centered {
     position: absolute;
     top: 50%;
@@ -282,7 +280,6 @@ a.et_pb_button_00 {
 }
 
 /* Contact */
-
 .bodycon {
     color: #336699;
 }
@@ -315,4 +312,16 @@ input#input_11_1_6 , input#input_11_1_3 , select#input_11_1_2 , input#input_11_4
     padding: 1% 0;
     color: #336699;
     font-size: 220%;
+}
+.map {
+    width: 80%;
+    height: 500px;
+}
+.divmap {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.conmap {
+    text-align: center;
 }
