@@ -64,7 +64,7 @@ body {margin:0;
     font-size: 160%;
     text-align: center;
 }
-.et_pb_button_0, a.et_pb_button_00 {
+.et_pb_button_0, a.et_pb_button_00, .boutonaws {
     color: #ffffff!important;
     border-width: 0px!important;
     border-color: #ff2063;
@@ -324,4 +324,52 @@ input#input_11_1_6 , input#input_11_1_3 , select#input_11_1_2 , input#input_11_4
 }
 .conmap {
     text-align: center;
+}
+
+/* Page AWS Restart */
+
+.presaws {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20%;
+    margin-right: 60%;
+    color: white;
+    background-color: black;
+}
+.h1aws {
+    line-height: 130%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-size: 34px;
+    color: #ffffff!important;
+}
+#men {
+    width: 15%;
+    margin-left: 35%;
+    margin-top: -20px;
+    position: absolute;
+}
+#peint {
+    width: 30%;
+    margin-left: 20%;
+    position: absolute;
+}
+.sectop {
+    background-color: black;
+}
+.boutonaws {
+    margin-bottom: 30px;
+}
+.sectop2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2a609e;
+}
+.divaws {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    margin-top: 1%;
 }
