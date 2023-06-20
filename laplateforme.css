@@ -369,7 +369,29 @@ input#input_11_1_6 , input#input_11_1_3 , select#input_11_1_2 , input#input_11_4
 }
 .divaws {
     display: flex;
-    align-items: center;
-    margin: 5%;
-    margin-top: 1%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.h12 {
+    font-size: 34px;
+}
+.psec2 {
+    padding: 2%;
+    font-size: 1.3em;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.psec2 .list {
+    display: inline;
+    margin-right: 10px;
+}
+.list {
+    /* list-style-type: none; */
+    overflow: hidden;
+    width: 500%;
+    margin-left: 800px;
+    margin-top: -90px;
+    font-size: 1.3em;
 }
